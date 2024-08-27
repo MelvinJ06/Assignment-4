@@ -1,0 +1,92 @@
+body{
+    background-color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    background-color: white;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    border: 3px solid olivedrab;
+    border-radius: 5px;
+    background-color: olivedrab;
+    color: antiquewhite;
+}
+
+.summary{
+    border: none;
+    background-color: blanchedalmond;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.entry-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+
+.entry-form input , .entry-form select ,
+.entry-form button {
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.entry-form button{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: greenyellow;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 3px;
+    font-weight: 100px;
+}
+
+
+.filters{
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.filters label{
+    margin: 0px 10px;
+}
+
+.entries ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.entries li { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+}
+
+.entries button{
+    background-color: cadetblue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
